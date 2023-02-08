@@ -70,11 +70,11 @@
     background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     color: white;
-padding:20px;
-display: flex;
-justify-content:center;
-align-items:center;
-margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
 }
 .service-btn{
     color: gray;
@@ -97,6 +97,7 @@ margin: 0 auto;
     display: flex;
     align-items: center;
 }
+
 .author-image{
     display: flex;
     align-items: center;
@@ -108,4 +109,26 @@ margin: 0 auto;
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+.service-up{
+    display: flex;
+}
+.service{
+    padding: 58px;
+    background-color: white;
+    box-shadow: 4px 4px 8px grey;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.service-logo{
+    width: 50px;
+    padding-bottom: 10px;
+}
+.service-down{
+ display: flex;
 }
